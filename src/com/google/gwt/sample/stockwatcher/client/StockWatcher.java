@@ -37,9 +37,9 @@ public class StockWatcher implements EntryPoint {
    */
   public void onModuleLoad() {
     // Create table for stock data.
-	stocksFlexTable.setText(0, 0, "Symbol");
-	stocksFlexTable.setText(0, 1, "Price");
-	stocksFlexTable.setText(0, 2, "Change");
+	stocksFlexTable.setText(0, 0, "Conflicts");
+	stocksFlexTable.setText(0, 1, "Everywhere");
+	stocksFlexTable.setText(0, 2, "ALL OVER THE PLACE");
 	stocksFlexTable.setText(0, 3, "Remove");
 	
     // Assemble Add Stock panel.
